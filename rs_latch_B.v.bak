@@ -1,0 +1,17 @@
+module rs_latch_B(q, q_bar, r, s);
+  output q, q_bar;
+  input r, s;
+  reg q; 
+  
+  assign q_bar = ~q;
+  
+  always @ ( r or s ) // When ever r or s change,
+  begin
+    case ({r,s})
+      2'b00 : q <= ~q;    // Model the race conditions
+      2'b01 : q <= 1'b1;  // Set
+      2'b10 : q <= 1'b0;  // Reset
+    endcase
+  end
+  
+endcase
