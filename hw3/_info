@@ -44,42 +44,42 @@ Z23 !s107 /home/angel/courses/ece156a/hw3/dff_B_tm.v|
 !s85 0
 !s101 -O0
 vseven_seg_B
-Z24 IUf`a3fW<?];5Elm^1iEAI2
-Z25 VZQO2aHE^l9>0a7olP_2;i3
+!i10b 1
+!s100 [8Xzc8KaYmd59ed[:@E]43
+IbVL8fflJfLz3gf9HV56N;3
+V>3`4abL87^kRG=ShbE1zN0
 R3
-Z26 w1477099964
-Z27 8/home/angel/courses/ece156a/hw3/seven_seg_B.v
-Z28 F/home/angel/courses/ece156a/hw3/seven_seg_B.v
+w1477101545
+Z24 8/home/angel/courses/ece156a/hw3/seven_seg_B.v
+Z25 F/home/angel/courses/ece156a/hw3/seven_seg_B.v
 L0 1
 R7
 r1
-31
-R9
-Z29 nseven_seg_@b
-!i10b 1
-Z30 !s100 G>8J_E7khF;BOAVh]e@Q_1
 !s85 0
-Z31 !s108 1477099969.565211
-Z32 !s107 /home/angel/courses/ece156a/hw3/seven_seg_B.v|
-Z33 !s90 -reportprogress|300|-work|hw3|/home/angel/courses/ece156a/hw3/seven_seg_B.v|
+31
+!s108 1477101563.476950
+!s107 /home/angel/courses/ece156a/hw3/seven_seg_B.v|
+Z26 !s90 -reportprogress|300|-work|hw3|/home/angel/courses/ece156a/hw3/seven_seg_B.v|
 !s101 -O0
+R9
+Z27 nseven_seg_@b
 vseven_seg_B_tm
-!i10b 1
-!s100 [TSiFMQz1403Xf82<WBGJ0
-I1i[AAXLzE6Ki<3;b6=J]B1
-V6][lAAlXLKEa5PjN;6V:O2
+Z28 II7Vjz<gT`7ZDk]jScd9B?3
+Z29 V6][lAAlXLKEa5PjN;6V:O2
 R3
-w1477100360
-8/home/angel/courses/ece156a/hw3/seven_seg_B_tm.v
-F/home/angel/courses/ece156a/hw3/seven_seg_B_tm.v
+Z30 w1477101399
+Z31 8/home/angel/courses/ece156a/hw3/seven_seg_B_tm.v
+Z32 F/home/angel/courses/ece156a/hw3/seven_seg_B_tm.v
 L0 1
 R7
 r1
-!s85 0
 31
-!s108 1477100363.889144
-!s107 /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v|
-!s90 -reportprogress|300|-work|hw3|/home/angel/courses/ece156a/hw3/seven_seg_B_tm.v|
-!s101 -O0
+Z33 !s90 -reportprogress|300|-work|hw3|/home/angel/courses/ece156a/hw3/seven_seg_B_tm.v|
 R9
-nseven_seg_@b_tm
+Z34 nseven_seg_@b_tm
+!i10b 1
+Z35 !s100 OmI<:9YIk2Hieb?hHJfWE3
+!s85 0
+Z36 !s108 1477101420.057219
+Z37 !s107 /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v|
+!s101 -O0

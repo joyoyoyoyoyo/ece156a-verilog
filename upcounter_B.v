@@ -9,9 +9,11 @@ module upcounter_B(value, clk, reset, alphanumeric)
       {a,b,c,d,e,f,g} = 1; // active low
     end
     case (value)
-      3'd0 : {a,b,c,d,e,f,g} <=  {0,0,0,0,0,0};
-      3'd1 : {a,b,c,d,e,f,g} <=  {0,0,0,0,0,0};
-      3'd2 : {a,b,c,d,e,f,g} <= 
+      3'd0 :  {a,b,c,d,e,f,g} <=   {0,0,0,0,0,0};
+      3'd1 :  {a,b,c,d,e,f,g} <=   {0,0,0,0,0,0};
+      3'd2 :  {a,b,c,d,e,f,g} <=   {0,0,0,0,0,0};
+      3'd3 :  {a,b,c,d,e,f,g] <=   {0,0,0,0,0,0};
+      3'd4 :  {
       default: {a,b,c,d,e,f,g} <= {0,0,0,0,0};
       
     

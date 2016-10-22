@@ -8,12 +8,12 @@ module seven_seg_B_tm();
     .value        (value), 
     .clk          (clk),
     .reset        (reset),
-    .alphanumeric (alphanumeric)
+    .alphanumeric (display)
     );
     
   initial begin
-    clk   = 1'b0;
-    reset = 1'b0;
+    clk   = 0;
+    reset = 0;
     value = 4'b0000;
   end
   

@@ -86,3 +86,116 @@ quit -sim
 # Compile of seven_seg_B_tm.v was successful.
 # Compile of seven_seg_B_tm.v failed with 1 errors.
 # Compile of seven_seg_B_tm.v was successful.
+vsim -novopt hw3.dff_B_tm
+# vsim -novopt hw3.dff_B_tm 
+# Loading hw3.dff_B_tm
+# Loading hw3.dff_B
+quit -sim
+vsim -novopt hw3.seven_seg_B_tm
+# vsim -novopt hw3.seven_seg_B_tm 
+# Loading hw3.seven_seg_B_tm
+# Loading hw3.seven_seg_B
+add wave -position insertpoint  \
+sim:/seven_seg_B_tm/value \
+sim:/seven_seg_B_tm/clk \
+sim:/seven_seg_B_tm/reset \
+sim:/seven_seg_B_tm/display \
+sim:/seven_seg_B_tm/alphanumeric
+run -all
+# ** Note: $finish    : /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v(20)
+#    Time: 100 ps  Iteration: 0  Instance: /seven_seg_B_tm
+# 1
+# Break in Module seven_seg_B_tm at /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v line 20
+# WARNING: No extended dataflow license exists
+quit -sim
+# Compile of seven_seg_B.v was successful with warnings.
+# Compile of seven_seg_B_tm.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt hw3.seven_seg_B_tm
+# vsim -novopt hw3.seven_seg_B_tm 
+# Loading hw3.seven_seg_B_tm
+# Loading hw3.seven_seg_B
+# ** Warning: (vsim-3015) /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v(12): [PCDPC] - Port size (1 or 1) does not match connection size (6) for port 'alphanumeric'. The port definition is at: /home/angel/courses/ece156a/hw3/seven_seg_B.v(1).
+#         Region: /seven_seg_B_tm/led
+add wave -position insertpoint  \
+sim:/seven_seg_B_tm/value \
+sim:/seven_seg_B_tm/clk \
+sim:/seven_seg_B_tm/reset \
+sim:/seven_seg_B_tm/display
+run
+# ** Note: $finish    : /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v(20)
+#    Time: 100 ps  Iteration: 0  Instance: /seven_seg_B_tm
+# 1
+# Break in Module seven_seg_B_tm at /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v line 20
+quit -sim
+# Compile of seven_seg_B.v was successful.
+vsim -novopt hw3.seven_seg_B_tm
+# vsim -novopt hw3.seven_seg_B_tm 
+# Loading hw3.seven_seg_B_tm
+# Loading hw3.seven_seg_B
+# ** Warning: (vsim-3015) /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v(12): [PCDPC] - Port size (1 or 1) does not match connection size (6) for port 'alphanumeric'. The port definition is at: /home/angel/courses/ece156a/hw3/seven_seg_B.v(1).
+#         Region: /seven_seg_B_tm/led
+add wave -position insertpoint  \
+sim:/seven_seg_B_tm/value \
+sim:/seven_seg_B_tm/clk \
+sim:/seven_seg_B_tm/reset \
+sim:/seven_seg_B_tm/display
+run
+# ** Note: $finish    : /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v(20)
+#    Time: 100 ps  Iteration: 0  Instance: /seven_seg_B_tm
+# 1
+# Break in Module seven_seg_B_tm at /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v line 20
+quit -sim
+# Compile of seven_seg_B.v was successful.
+# Compile of seven_seg_B_tm.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt hw3.seven_seg_B_tm
+# vsim -novopt hw3.seven_seg_B_tm 
+# Loading hw3.seven_seg_B_tm
+# Loading hw3.seven_seg_B
+# ** Warning: (vsim-3015) /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v(12): [PCDPC] - Port size (1 or 1) does not match connection size (6) for port 'alphanumeric'. The port definition is at: /home/angel/courses/ece156a/hw3/seven_seg_B.v(1).
+#         Region: /seven_seg_B_tm/led
+add wave -position insertpoint  \
+sim:/seven_seg_B_tm/value \
+sim:/seven_seg_B_tm/clk \
+sim:/seven_seg_B_tm/reset \
+sim:/seven_seg_B_tm/display
+run
+# ** Note: $finish    : /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v(20)
+#    Time: 100 ps  Iteration: 0  Instance: /seven_seg_B_tm
+# 1
+# Break in Module seven_seg_B_tm at /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v line 20
+quit -sim
+# Compile of seven_seg_B_tm.v was successful.
+vsim -novopt hw3.seven_seg_B_tm
+# vsim -novopt hw3.seven_seg_B_tm 
+# Loading hw3.seven_seg_B_tm
+# Loading hw3.seven_seg_B
+# ** Warning: (vsim-3015) /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v(12): [PCDPC] - Port size (1 or 1) does not match connection size (6) for port 'alphanumeric'. The port definition is at: /home/angel/courses/ece156a/hw3/seven_seg_B.v(1).
+#         Region: /seven_seg_B_tm/led
+add wave -position insertpoint  \
+sim:/seven_seg_B_tm/value \
+sim:/seven_seg_B_tm/clk \
+sim:/seven_seg_B_tm/reset \
+sim:/seven_seg_B_tm/display
+run
+# ** Note: $finish    : /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v(20)
+#    Time: 100 ps  Iteration: 0  Instance: /seven_seg_B_tm
+# 1
+# Break in Module seven_seg_B_tm at /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v line 20
+quit -sim
+# Compile of seven_seg_B.v was successful.
+vsim -novopt hw3.seven_seg_B_tm
+# vsim -novopt hw3.seven_seg_B_tm 
+# Loading hw3.seven_seg_B_tm
+# Loading hw3.seven_seg_B
+add wave -position insertpoint  \
+sim:/seven_seg_B_tm/value \
+sim:/seven_seg_B_tm/clk \
+sim:/seven_seg_B_tm/reset \
+sim:/seven_seg_B_tm/display
+run
+# ** Note: $finish    : /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v(20)
+#    Time: 100 ps  Iteration: 0  Instance: /seven_seg_B_tm
+# 1
+# Break in Module seven_seg_B_tm at /home/angel/courses/ece156a/hw3/seven_seg_B_tm.v line 20
