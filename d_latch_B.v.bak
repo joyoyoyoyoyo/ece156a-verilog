@@ -14,4 +14,5 @@ module d_latch_B(clk, q, q_bar, d);
       end
     end
   end
+  
 endmodule 

@@ -5,7 +5,6 @@ module d_latch_B(clk, q, q_bar, d);
   
   assign q_bar = ~q;
   
-  
   always @ (r or s )
     begin
       if (clk) // True is any non-zero value

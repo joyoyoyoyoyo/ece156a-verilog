@@ -22,7 +22,7 @@ module dff_B_tm();
   initial #100 $finish;
   
   
-  always # 5 {reset,d} = {reset,d} + 1;
+  always # 6 {reset,d} = {reset,d} + 1;
   
   always # 5 clk = ~ clk;
  

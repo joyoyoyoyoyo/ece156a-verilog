@@ -2,4 +2,44 @@ m255
 K3
 13
 cModel Technology
-d/home/angel/Installations/altera/13.1/modelsim_ase/bin
+Z0 d/home/angel/Installations/altera/13.1/modelsim_ase/bin
+vdff_B
+Z1 I5;za]2AEad^U89V`E47@b3
+Z2 Vmnk^U3LW[D4cYKSJI2e4I0
+Z3 d/home/angel/courses/ece156a/hw3
+Z4 w1477096156
+Z5 8/home/angel/courses/ece156a/hw3/dff_B.v
+Z6 F/home/angel/courses/ece156a/hw3/dff_B.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|hw3|/home/angel/courses/ece156a/hw3/dff_B.v|
+Z9 o-work hw3 -O0
+Z10 ndff_@b
+!i10b 1
+Z11 !s100 6k89FalkKjLNkQV]1MK9T3
+!s85 0
+Z12 !s108 1477096165.537089
+Z13 !s107 /home/angel/courses/ece156a/hw3/dff_B.v|
+!s101 -O0
+vdff_B_tm
+!i10b 1
+Z14 !s100 hQ^hk3@SbgiO8GQ<1KGP11
+Z15 I9U7m8;GF`f8mIIg;lGXaf3
+Z16 V6DSIP1n;d@CWz3NO28SaH3
+R3
+Z17 w1477095845
+Z18 8/home/angel/courses/ece156a/hw3/dff_B_tm.v
+Z19 F/home/angel/courses/ece156a/hw3/dff_B_tm.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1477096165.600415
+!s107 /home/angel/courses/ece156a/hw3/dff_B_tm.v|
+Z20 !s90 -reportprogress|300|-work|hw3|/home/angel/courses/ece156a/hw3/dff_B_tm.v|
+!s101 -O0
+R9
+Z21 ndff_@b_tm

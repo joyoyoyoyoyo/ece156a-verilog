@@ -1,13 +1,20 @@
-module dff_B(clk, q, q_bar, d);
+module dff_B(clk, reset,q, q_bar, d);
+  input clk, reset;
+  input d;
   output q, q_bar;
-  input clk, d;
-  reg q;
+  reg q, q_bar;
   // do I make q a q_bar or use my assign operation
   
   always @ (posedge clk)
   begin
+    if (reset) begin
+      q <= 0;
+      q_bar <= 1;
+    end
+    else begin//else if (enable) begin
       q <= d;
-      q_bar <= ~d
-  end
+      q_bar <= ~d;
+    end
+  end  
 endmodule
     

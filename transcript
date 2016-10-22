@@ -1,0 +1,73 @@
+# Loading project making-verilog-behave
+# Compile of dff_B_tm.v was successful.
+vsim -novopt hw3.dff_B_tm
+# vsim -novopt hw3.dff_B_tm 
+# Loading hw3.dff_B_tm
+# Loading hw3.dff_B
+add wave -position insertpoint sim:/dff_B_tm/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+add wave -position insertpoint  \
+sim:/dff_B_tm/clk \
+sim:/dff_B_tm/reset \
+sim:/dff_B_tm/d \
+sim:/dff_B_tm/q \
+sim:/dff_B_tm/q_bar
+restart -f
+# Compile of dff_B_tm.v was successful.
+quit -sim
+vsim -novopt hw3.dff_B_tm
+# vsim -novopt hw3.dff_B_tm 
+# Loading hw3.dff_B_tm
+# Loading hw3.dff_B
+add wave -position insertpoint  \
+sim:/dff_B_tm/clk \
+sim:/dff_B_tm/reset \
+sim:/dff_B_tm/d \
+sim:/dff_B_tm/q \
+sim:/dff_B_tm/q_bar
+run
+# ** Note: $finish    : /home/angel/courses/ece156a/hw3/dff_B_tm.v(22)
+#    Time: 100 ps  Iteration: 0  Instance: /dff_B_tm
+# 1
+# Break in Module dff_B_tm at /home/angel/courses/ece156a/hw3/dff_B_tm.v line 22
+quit -sim
+# Compile of dff_B.v was successful.
+# Compile of dff_B_tm.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt hw3.dff_B_tm
+# vsim -novopt hw3.dff_B_tm 
+# Loading hw3.dff_B_tm
+# Loading hw3.dff_B
+add wave -position insertpoint  \
+sim:/dff_B_tm/clk \
+sim:/dff_B_tm/reset \
+sim:/dff_B_tm/d \
+sim:/dff_B_tm/q \
+sim:/dff_B_tm/q_bar
+run
+# ** Note: $finish    : /home/angel/courses/ece156a/hw3/dff_B_tm.v(22)
+#    Time: 100 ps  Iteration: 0  Instance: /dff_B_tm
+# 1
+# Break in Module dff_B_tm at /home/angel/courses/ece156a/hw3/dff_B_tm.v line 22
+quit -sim
+# Compile of dff_B.v was successful.
+# Compile of dff_B_tm.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt hw3.dff_B_tm
+# vsim -novopt hw3.dff_B_tm 
+# Loading hw3.dff_B_tm
+# Loading hw3.dff_B
+add wave -position insertpoint  \
+sim:/dff_B_tm/clk \
+sim:/dff_B_tm/reset \
+sim:/dff_B_tm/d \
+sim:/dff_B_tm/q \
+sim:/dff_B_tm/q_bar
+run
+# ** Note: $finish    : /home/angel/courses/ece156a/hw3/dff_B_tm.v(22)
+#    Time: 100 ps  Iteration: 0  Instance: /dff_B_tm
+# 1
+# Break in Module dff_B_tm at /home/angel/courses/ece156a/hw3/dff_B_tm.v line 22
+quit -sim
