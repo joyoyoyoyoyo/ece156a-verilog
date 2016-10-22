@@ -71,3 +71,18 @@ run
 # 1
 # Break in Module dff_B_tm at /home/angel/courses/ece156a/hw3/dff_B_tm.v line 22
 quit -sim
+# Compile of seven_seg_B.v failed with 1 errors.
+# Compile of seven_seg_B.v failed with 2 errors.
+# Compile of seven_seg_B.v failed with 2 errors.
+# Compile of seven_seg_B.v failed with 2 errors.
+# Compile of seven_seg_B.v failed with 1 errors.
+# Compile of seven_seg_B.v failed with 1 errors.
+# Compile of seven_seg_B.v failed with 1 errors.
+# Compile of seven_seg_B.v failed with 1 errors.
+# Compile of seven_seg_B.v failed with 1 errors.
+# Compile of seven_seg_B.v failed with 1 errors.
+# Compile of seven_seg_B.v failed with 1 errors.
+# Compile of seven_seg_B.v was successful with warnings.
+# Compile of seven_seg_B_tm.v was successful.
+# Compile of seven_seg_B_tm.v failed with 1 errors.
+# Compile of seven_seg_B_tm.v was successful.

@@ -1,4 +1,24 @@
-/home/angel/courses/ece156a/hw3/dff_B_tm.v {1 {vlog -work hw3 /home/angel/courses/ece156a/hw3/dff_B_tm.v
+/home/angel/courses/ece156a/hw3/seven_seg_B.v {2 {vlog -work hw3 /home/angel/courses/ece156a/hw3/seven_seg_B.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module seven_seg_B
+** Warning: /home/angel/courses/ece156a/hw3/seven_seg_B.v(23): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /home/angel/courses/ece156a/hw3/seven_seg_B.v(24): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /home/angel/courses/ece156a/hw3/seven_seg_B.v(25): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /home/angel/courses/ece156a/hw3/seven_seg_B.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /home/angel/courses/ece156a/hw3/seven_seg_B.v(27): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /home/angel/courses/ece156a/hw3/seven_seg_B.v(28): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	seven_seg_B
+
+} {} {}} /home/angel/courses/ece156a/hw3/dff_B.v {1 {vlog -work hw3 /home/angel/courses/ece156a/hw3/dff_B.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dff_B
+
+Top level modules:
+	dff_B
+
+} {} {}} /home/angel/courses/ece156a/hw3/dff_B_tm.v {1 {vlog -work hw3 /home/angel/courses/ece156a/hw3/dff_B_tm.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module dff_B_tm
 

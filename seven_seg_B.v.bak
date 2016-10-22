@@ -2,7 +2,7 @@ module seven_seg_B(value, clk, reset, alphanumeric);
   input [3:0] value; // 4 bit binary code to map to a corresponding digit or numerical representation
   input clk, reset;
   output [5:0] alphanumeric;
-  reg a,b,c,d,e,f,g,alphanumeric;
+  reg a,b,c,d,e,f,g;
   
   always @ (posedge clk) begin
     if (reset) begin

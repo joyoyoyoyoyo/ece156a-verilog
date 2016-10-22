@@ -1,6 +1,6 @@
 module seven_seg_B_tm();
   
-  reg [3:0] value;
+  reg [3:0] value
   reg clk,reset;
   wire [5:0] display;
   
@@ -23,6 +23,4 @@ module seven_seg_B_tm();
   //always # 10 {reset,d} = {reset,d} + 1;
   
   always # 5 clk = ~ clk;
-  
-  
-endmodule
+ 
